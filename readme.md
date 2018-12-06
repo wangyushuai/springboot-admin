@@ -1,16 +1,20 @@
 # SpringBoot2.x 整合 SpringBoot-Admin 监控
 author: yushuai_w@163.com
 
-内容： 包含client及Server
+内容：
+1. SpringBoot2.x 整合 SpringBoot-Admin 监控
+2. 包含client及Server
+
+
+更新日志：
+1. 当前节点： 单体实例监控
+2. Demo download : https://github.com/wangyushuai/springboot-admin
 
 效果预览：
 ![Server](https://img-blog.csdnimg.cn/20181206103724864.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NodWFpX3d5,size_16,color_FFFFFF,t_70)
 
 ![Server](https://img-blog.csdnimg.cn/20181206103619156.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NodWFpX3d5,size_16,color_FFFFFF,t_70)
 
-更新日志：
-1. 当前节点： 单体实例
-2. Demo download : https://github.com/wangyushuai/springboot-admin
 
 ## 1.1 新建Mavne聚合工程
 
