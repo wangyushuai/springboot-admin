@@ -10,6 +10,7 @@ author: yushuai_w@163.com
 
 更新日志：
 1. 当前节点： 单体实例
+2. Demo download : https://github.com/wangyushuai/springboot-admin
 
 ## 1.1 新建Mavne聚合工程
 
