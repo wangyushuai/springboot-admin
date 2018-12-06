@@ -8,6 +8,8 @@ author: yushuai_w@163.com
 
 ![Server](https://img-blog.csdnimg.cn/20181206103619156.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NodWFpX3d5,size_16,color_FFFFFF,t_70)
 
+更新日志：
+1. 当前节点： 单体实例
 
 ## 1.1 新建Mavne聚合工程
 
