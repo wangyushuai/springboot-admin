@@ -41,11 +41,23 @@ author: yushuai_w@163.com
 ```
 
 ## 1.3 配置Server端
-1. 设置端口号
+1. 引入依赖
+
+```
+
+	<dependency>
+		<groupId>de.codecentric</groupId>
+		<artifactId>spring-boot-admin-starter-server</artifactId>
+		 <version>2.1.1</version>
+	</dependency>
+
+```
+
+3. 设置端口号
 ```
 server.port = 8090
-```  
-2. 添加启动类注解
+```
+4. 添加启动类注解
 ```
 @Configuration
 @EnableAutoConfiguration
@@ -53,18 +65,25 @@ server.port = 8090
 ```
 
 ## 1.4 配置Client端
-1. 配置文件
+1. 添加依赖
+```
+  <dependency>
+       <groupId>de.codecentric</groupId>
+       <artifactId>spring-boot-admin-starter-client</artifactId>
+       <version>2.1.1</version>
+   </dependency>
+```
+
+2. 配置文件
 ```$xslt
 # 服务端监控地址
-spring.boot.admin.client.url=http://39.105.205.12:8090
+spring.boot.admin.client.url=http://127.0.0.1:8090
 # 本机IP
-spring.boot.admin.client.instance.service-base-url=http://39.105.205.12:8080/
+spring.boot.admin.client.instance.service-base-url=http://127.0.0.1:8080/
 # 开放监控内容
 management.endpoints.web.exposure.include=*  
 # health/detail 细节（）
 management.endpoint.health.show-details = always
-```
-
 
 
 
